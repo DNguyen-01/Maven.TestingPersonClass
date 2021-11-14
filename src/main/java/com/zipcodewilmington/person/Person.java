@@ -7,10 +7,14 @@ package com.zipcodewilmington.person;
 
 public class Person {
 
-   public String name;
-   public int age;
+   private String name;
+    private int age;
 
     public Person() {
+
+        name = "";
+        age = Integer.MAX_VALUE;
+
     }
 
     public Person(int age) {
